@@ -51,7 +51,7 @@ module Spree
           end
 
           def escape(string)
-            URI.escape string, /[^#{URI::PATTERN::UNRESERVED}]/
+            string
           end
 
           def spree
